@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educare - Online Courses</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>Educare</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Course content</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <a href="#" class="btn enroll-btn">Enroll now</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1>Advance Your Career with Our <br> Online Courses</h1>
+      <p>Our courses cover a range of topics, including accounting, finance, marketing, human resources, and more. You'll have access to expert instructors.</p>
+      <p><strong>200k+ Enrolled Students</strong></p>
+    </div>
+    <div class="hero-images">
+      <img src="images/student1.jpg" alt="Student learning">
+      <img src="images/student2.jpg" alt="Student in class">
+      <img src="images/student3.jpg" alt="Online learning">
+    </div>
+  </section>
+
+</body>
+
+</html>
+<!-- Our Courses Features Section -->
+<section id="courses-features" class="courses-features">
+  <div class="container">
+    <h2>Our Courses Features</h2>
+    <p>20k Students are enrolled</p>
+
+    <!-- Categories Tabs -->
+    <div class="course-tabs">
+      <button class="tab active" onclick="filterCourses('all')">All categories</button>
+      <button class="tab" onclick="filterCourses('design')">Design</button>
+      <button class="tab" onclick="filterCourses('programming')">Programming</button>
+      <button class="tab" onclick="filterCourses('it-network')">IT & Network</button>
+      <button class="tab" onclick="filterCourses('lifestyle')">Lifestyle</button>
+      <button class="tab" onclick="filterCourses('photography')">Photography</button>
+      <button class="tab" onclick="filterCourses('business')">Business</button>
+      <button class="tab" onclick="filterCourses('digital-marketing')">Digital Marketing</button>
+    </div>
+
+    <!-- Courses Grid -->
+    <div class="courses-grid">
+      <!-- Course 1 -->
+      <div class="course-card" data-category="digital-marketing">
+        <img src="images/course1.jpg" alt="Advanced Digital Marketing Strategies">
+        <div class="course-info">
+          <div class="course-reviews">
+            <span>⭐⭐⭐⭐⭐ 55 Reviews</span>
+          </div>
+          <h3>Advanced Digital Marketing Strategies</h3>
+          <p>85 enrolled | 20 Lessons | 3h 45m</p>
+          <p class="instructor">Eleanor Pena</p>
+          <p class="price">$55</p>
+          <a href="#" class="btn enroll-btn">Enroll Now</a>
+        </div>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="course-card" data-category="design">
+        <img src="images/course2.jpg" alt="UI/UX Design Fundamentals">
+        <div class="course-info">
+          <div class="course-reviews">
+            <span>⭐⭐⭐⭐⭐ 45 Reviews</span>
+          </div>
+          <h3>UI/UX Design Fundamentals</h3>
+          <p>54 enrolled | 25 Lessons | 2h 45m</p>
+          <p class="instructor">Jacob Jones</p>
+          <p class="price">$65</p>
+          <a href="#" class="btn enroll-btn">Enroll Now</a>
+        </div>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="course-card" data-category="programming">
+        <img src="images/course3.jpg" alt="The Complete Web Developer Bootcamp">
+        <div class="course-info">
+          <div class="course-reviews">
+            <span>⭐⭐⭐⭐⭐ 35 Reviews</span>
+          </div>
+          <h3>The Complete Web Developer Bootcamp</h3>
+          <p>35 enrolled | 27 Lessons | 4h 45m</p>
+          <p class="instructor">Floyd Miles</p>
+          <p class="price">$85</p>
+          <a href="#" class="btn enroll-btn">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination (Optional) -->
+    <div class="pagination">
+      <span>⬤</span>
+      <span>⬤</span>
+      <span>⬤</span>
+    </div>
+  </div>
+</section>
+<!-- Statistics Section -->
+<section id="statistics" class="statistics-section">
+  <div class="container stats-container">
+    <div class="stat-box">
+      <h2>20K</h2>
+      <p>Students Enrolled</p>
+    </div>
+    <div class="stat-box">
+      <h2>250+</h2>
+      <p>Expert Mentors</p>
+    </div>
+    <div class="stat-box">
+      <h2>50K</h2>
+      <p>Students Review</p>
+    </div>
+    <div class="stat-box">
+      <h2>96%</h2>
+      <p>Success Rating</p>
+    </div>
+  </div>
+</section>
+
+<!-- Mentors Section -->
+<section id="mentors" class="mentors-section">
+  <div class="container">
+    <h2>Our Courses Mentors</h2>
+    <div class="mentors-grid">
+      <!-- Mentor 1 -->
+      <div class="mentor-card">
+        <img src="images/mentor1.jpg" alt="Jane Cooper">
+        <h3>Jane Cooper</h3>
+        <p>Mentor for Design</p>
+      </div>
+      <!-- Mentor 2 -->
+      <div class="mentor-card">
+        <img src="images/mentor2.jpg" alt="Wade Warren">
+        <h3>Wade Warren</h3>
+        <p>Mentor for Development</p>
+      </div>
+      <!-- Mentor 3 -->
+      <div class="mentor-card">
+        <img src="images/mentor3.jpg" alt="Darlene Robertson">
+        <h3>Darlene Robertson</h3>
+        <p>Mentor for Photography</p>
+      </div>
+      <!-- Mentor 4 -->
+      <div class="mentor-card">
+        <img src="images/mentor4.jpg" alt="Jenny Wilson">
+        <h3>Jenny Wilson</h3>
+        <p>Mentor for Business</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Students Reviews Section -->
+<section id="students-reviews" class="students-reviews-section">
+  <div class="container">
+    <h2>Our Students Reviews</h2>
+    <div class="reviews-grid">
+      <!-- Review 1 -->
+      <div class="review-card">
+        <img src="images/student1.jpg" alt="Jane Cooper">
+        <h3>Jane Cooper</h3>
+        <p class="role">UI / UX Design Student</p>
+        <p class="review">"The courses here really helped me elevate my design skills to a professional level. The mentors were incredibly supportive and knowledgeable."</p>
+      </div>
+      <!-- Review 2 -->
+      <div class="review-card">
+        <img src="images/student2.jpg" alt="Esther Howard">
+        <h3>Esther Howard</h3>
+        <p class="role">Web Developer Student</p>
+        <p class="review">"I learned everything I needed to break into the web development industry. I highly recommend these courses to anyone looking to learn code."</p>
+      </div>
+      <!-- Review 3 -->
+      <div class="review-card">
+        <img src="images/student3.jpg" alt="Kristin Watson">
+        <h3>Kristin Watson</h3>
+        <p class="role">Digital Marketing Student</p>
+        <p class="review">"These digital marketing courses gave me the confidence to start my own marketing business. The community support is great."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Post from Blog Section -->
+<section id="latest-post" class="latest-post-section">
+  <div class="container">
+    <div class="blog-header">
+      <h2>Latest Post from Blog</h2>
+      <p>Stay up-to-date with our latest tips and resources for online learning success.</p>
+    </div>
+    <div class="blog-grid">
+      <!-- Blog Post 1 -->
+      <div class="blog-card">
+        <img src="images/blog1.jpg" alt="Unlocking Your Potential">
+        <h3>Unlocking Your Potential</h3>
+        <p class="post-summary">Discover strategies to maximize your productivity and excel in your learning journey.</p>
+      </div>
+      <!-- Blog Post 2 -->
+      <div class="blog-card">
+        <img src="images/blog2.jpg" alt="Mastering the Art of Online Learning">
+        <h3>Mastering the Art of Online Learning</h3>
+        <p class="post-summary">Learn how to make the most out of your online courses and master new skills efficiently.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educare - Advance Your Career</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>Educare</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Newsletter Signup Section -->
+    <section class="newsletter">
+        <div class="newsletter-container">
+            <h2>Stay Updated With Our Latest Courses</h2>
+            <p>Subscribe to receive updates on new courses, learning tips, and career growth advice.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
